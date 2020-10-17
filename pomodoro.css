@@ -1,0 +1,391 @@
+body {
+  font-family: "ArialRounded", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Mainbody {
+  background-color: rgb(240, 91, 86);
+  min-height: 698px;
+  width: 100%;
+  color: white;
+  transition: background-color 0.5s ease-in-out 0s;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+div {
+  display: block;
+}
+
+.Fulltopbody {
+  padding: 0px 12px;
+  max-width: 620px;
+  margin: auto;
+}
+
+.Contenttoppage {
+  background-color: inherit;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+h1 {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  line-height: 1.4em;
+}
+
+.Promofocusstyle {
+  display: inline-block;
+  color: white;
+  margin: 0px;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+.Pomofocusicon {
+  width: 20px;
+  margin-right: 4px;
+}
+
+.Promofocusstyle a {
+  color: white;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+/*----------------------------*/ /*-------------------------------------------*/
+
+.Toprighticon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: white;
+}
+
+button {
+  font-family: "ArialRounded", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+button {
+  appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+}
+
+.Reporticon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  background: none rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 8px 12px;
+  min-width: 70px;
+  border: none;
+  color: white !important;
+}
+
+.Reportimage {
+  width: 16px;
+}
+
+.Reportdiv {
+  display: block;
+  margin-left: 4px;
+}
+
+.Settingicon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  background: none rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 8px 12px;
+  min-width: 70px;
+  border: none;
+  color: white !important;
+}
+
+.Settingimage {
+  width: 16px;
+}
+
+.Settingdiv {
+  display: block;
+  margin-left: 4px;
+}
+
+.Loginicon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  background: none rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 8px 12px;
+  min-width: 70px;
+  border: none;
+  color: white !important;
+}
+
+.Loginimage {
+  width: 16px;
+}
+
+.Logindiv {
+  display: block;
+  margin-left: 4px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+div {
+  display: block;
+}
+
+.Mainbody2 {
+  padding: 0px 12px;
+  max-width: 620px;
+  margin: auto;
+}
+
+.Mainbody3 {
+  text-align: center;
+}
+
+.Topspace {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  margin-bottom: 40px;
+}
+
+.Topline {
+  height: 3px;
+  background-color: white;
+  border-radius: 100px;
+  transform: translateY(-1px);
+  width: 0%;
+}
+
+.Mainbody4 {
+  max-width: 480px;
+  margin: auto;
+}
+
+.Mainbody5 {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 30px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.Titleicons {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.Pomodoro1 {
+  border: none;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.Shortbreak2 {
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  font-weight: 300;
+}
+
+.Longbreak3 {
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  font-weight: 300;
+}
+
+.timer {
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.startbutton {
+  cursor: pointer;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-family: ArialRounded;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(240, 91, 86);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transition: color 0.5s ease-in-out 0s;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.bigblock {
+  max-width: 480px;
+  margin: 28px auto 42px;
+}
+
+.blocksection1 {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  padding-bottom: 14px;
+}
+
+.taskclass {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.threedotdiv24 {
+  position: relative;
+}
+
+.threedotbtn45 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  background: none rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 8px;
+  min-width: auto;
+  border: none;
+  color: white !important;
+}
+
+.threedotclass {
+  width: 16px;
+}
+
+.Spaceinbetween {
+  margin-top: 18px;
+}
+
+.dottedlines {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-top: 12px;
+  border: 2px dashed rgba(255, 255, 255, 0.4);
+}
+
+.addlistclass {
+  width: 18px;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+.addtaskclass {
+  opacity: 0.8;
+  font-weight: bold;
+}
