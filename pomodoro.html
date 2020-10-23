@@ -1,93 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="pomodoro.css">
     <title>Pomodoro Timer</title>
 </head>
+
 <body>
     <div id="target">
-    <div class="Mainbody">
-        <div class="Fulltopbody">
-        <div class="Contenttoppage">
-            <h1 class="Promofocusstyle">
-            <a href="">
-                <img src="Tickimage.png" alt="Pomofocus Icon"
-                class= "Pomofocusicon"> Promofocus
-            </a>
-            </h1>
-            <span class="Toprighticon">
-                <button class="Reporticon">
-                    <img src="Reportimage2.png" alt=" Icon for Report" class="Reportimage">
-                    <div class="Reportdiv">Report</div>
-                </button>
-                <button class="Settingicon">
-                    <img src="Settingimage3.png" alt= "Icon for Setting" class="Settingimage">
-                    <div class="Settingdiv">Setting</div>
-                </button>
-                <button class="Loginicon">
-                    <img src="Loginimage4.png" alt="Icon for Login" class="Loginimage">
-                    <div class="Logindiv">Login</div>
-                </button>
-            </span>
+        <div class="Mainbody">
+            <div class="Fulltopbody">
+                <div class="Contenttoppage">
+                    <h1 class="Promofocusstyle">
+                        <a href="">
+                            <img src="Tickimage.png" alt="Pomofocus Icon" class="Pomofocusicon"> Promofocus
+                        </a>
+                    </h1>
+                    <span class="Toprighticon">
+                        <button class="Reporticon">
+                            <img src="Reportimage2.png" alt=" Icon for Report" class="Reportimage">
+                            <div class="Reportdiv">Report</div>
+                        </button>
+                        <button class="Settingicon">
+                            <img src="Settingimage3.png" alt="Icon for Setting" class="Settingimage">
+                            <div class="Settingdiv">Setting</div>
+                        </button>
+                        <button class="Loginicon">
+                            <img src="Loginimage4.png" alt="Icon for Login" class="Loginimage">
+                            <div class="Logindiv">Login</div>
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="Mainbody2">
+                <div class="Mainbody3">
+
+                    <div class="Topspace">
+                        <div Class="Topline"></div>
+                    </div>
+
+                    <div class="Mainbody4">
+                        <div class="Mainbody5">
+                            <div class="Titleicons">
+                                <button class="Pomodoro1">Pomodoro</button>
+                                <button class="Shortbreak2">Short Break</button>
+                                <button class="Longbreak3">Long Break</button>
+                              
+                                <div id="timer-string" class="timer">
+                                    <span id="w_minutes" class= "span25">25</span>
+                                    <span id="semicolon" class= "span0">:</span>
+                                    <span id="w_seconds" class= "span00">00</span>
+                                </div>
+                                <div class="sprbutton">
+                                <button id="start" class="btn">START</button>
+                                <button id="stop" class="btn">PAUSE</button>
+                                <button id="reset" class="btn">RESET</button>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div><p id="timetowork">Time to work!</p></div>
+
+
+
+
+                <div class="bigblock">
+                    <div class="blocksection1">
+                        <span class="taskclass">Tasks</span>
+                        <div class="threedotdiv24">
+                            <button class="threedotbtn45">
+                                <img src="threedotsimage5.png" alt="threedots-image" class="threedotclass">
+                            </button>
+                        </div>
+
+                        <div class="Spaceinbetween"></div>
+
+                    </div>
+
+                    <div class="dottedlines">
+                        <img src="pluscirclewhiteimage6.png" alt="Add list" class="addlistclass">
+                        <div class="addtaskclass">Add Task</div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
         </div>
-        </div>
-
-<div>
-    <div class="Mainbody2">
-<div class="Mainbody3">
-
-     <div class="Topspace">
-         <div Class="Topline"></div>
-     </div>
-
-     <div class="Mainbody4">
-         <div class="Mainbody5">
-             <div class="Titleicons">
-                 <button class="Pomodoro1">Pomodoro</button>
-                 <button class="Shortbreak2">Short Break</button>
-                 <button class="Longbreak3">Long Break</button>
-             </div>
-             <div id="timer-string" class="timer"> 25:00 </div>
-             <button class="startbutton">Start</button>
-         </div>
-
-<div> Time to work!</div>
-     </div>
-</div>
-</div>
-</div>
-
-<div class="bigblock">
-<div class="blocksection1">
-    <span class="taskclass">Tasks</span>
-    <div class="threedotdiv24">
-        <button class="threedotbtn45">
-            <img src="threedotsimage5.png" alt="threedots-image" class="threedotclass">
-        </button>
-    </div>
-
-    <div class="Spaceinbetween"></div>
-
-    </div>
-
-    <div class="dottedlines">
-        <img src="pluscirclewhiteimage6.png" alt="Add list" class="addlistclass">
-        <div class="addtaskclass">Add Task</div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-    </div>
-    </div>
-    <script src="pomodoro.js"></script>
+        <script src="pomodoro.js"></script>
 </body>
+
 </html>

@@ -3,11 +3,12 @@ body {
     Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   -webkit-tap-highlight-color: transparent;
+  position: relative;
 }
 
 .Mainbody {
   background-color: rgb(240, 91, 86);
-  min-height: 698px;
+  min-height: 873px;
   width: 100%;
   color: white;
   transition: background-color 0.5s ease-in-out 0s;
@@ -97,8 +98,10 @@ button {
   text-transform: none;
   text-indent: 0px;
   text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
   box-sizing: border-box;
-  margin: 0em;
   font: 400 13.3333px Arial;
 }
 
@@ -232,12 +235,14 @@ div {
   width: 100%;
 }
 
+/*
 .Titleicons {
   display: inline-flex;
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  align-items: center;
+  align-items: flex-start;
+  margin-left: 20%;
 }
 
 .Pomodoro1 {
@@ -287,12 +292,13 @@ div {
 }
 
 .timer {
-  font-size: 120px;
+  font-size: 80px;
   font-weight: bold;
   margin-top: 20px;
+  display: inline;
 }
 
-.startbutton {
+.btn {
   cursor: pointer;
   border: none;
   margin: 20px 0px 0px;
@@ -351,6 +357,7 @@ div {
   font-size: 13px;
   padding: 8px;
   min-width: auto;
+  margin-left: 600%;
   border: none;
   color: white !important;
 }
@@ -388,4 +395,125 @@ div {
 .addtaskclass {
   opacity: 0.8;
   font-weight: bold;
+}
+/*---------------------------------------------------------------------------*/
+.Titleicons {
+  display: inline-flex;
+  margin-left: 23%;
+  align-self: center;
+}
+
+button {
+  appearance: button;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  font: 400 13.3333px Arial;
+}
+
+.Pomodoro1 {
+  border: none;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.Shortbreak2 {
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  font-weight: 300;
+}
+
+.Longbreak3 {
+  border: none;
+  color: white;
+  margin: 0px;
+  border-radius: 4px;
+  font-family: ArialRounded;
+  font-size: 16px;
+  padding: 2px 12px;
+  height: 28px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  font-weight: 300;
+}
+
+.timer {
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-left: -45%;
+}
+
+.span25 {
+  display: flex;
+  float: left;
+}
+
+.span0 {
+  float: left;
+  display: flex;
+}
+
+.span0 {
+  float: left;
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-family: ArialRounded;
+  font-size: 12px;
+  height: 25px;
+  color: rgb(240, 91, 86);
+  font-weight: bold;
+  width: 100px;
+  background-color: white;
+  transition: color 0.5s ease-in-out 0s;
+  margin-right: 1.5%;
+  margin-top: 50%;
+}
+
+.sprbutton {
+  display: flex;
+  margin-top: 20%;
+  margin-bottom: 3%;
+  margin-inline-start: -47%;
+}
+
+#timetowork {
+  margin-left: 42%;
+  margin-top: 05%;
 }
